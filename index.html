@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <title>RNG</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>welcome</h1> <br>
+        <p>do you want to play guss the number</p> <br>
+        <button id="play">play</button>
+
+
+        
+        <dialog id="dlg">
+            <article>
+                <h2>i have a number btween 1-1000, can you guess what it is?</h2>
+                <input id="input" placeholder="Number" type="number">
+                <p id="message"></p>
+                <button id="cancel" class="outline" style="color: red;">Cancel</button> <button id="submit">Submit</button>
+            </article>
+        </dialog>
+    </main>
+    <script src="logic.js"></script>
+</body>
+
+</html>
